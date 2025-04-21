@@ -1,43 +1,4 @@
-@font-face {
-  font-family: "OutfitBlack";
-  src: url("/assets/fonts/outfit/static/Outfit-Black.ttf");
-}
-@font-face {
-  font-family: "OutfitBold";
-  src: url("./assets/fonts/outfit/static/Outfit-Bold.ttf");
-}
-@font-face {
-  font-family: "OutfitExtraBold";
-  src: url("/assets/fonts/outfit/static/Outfit-ExtraBold.ttf");
-}
-@font-face {
-  font-family: "OutfitExtraLight";
-  src: url("./assets/fonts/outfit/static/Outfit-ExtraLight.ttf");
-}
-@font-face {
-  font-family: "OutfitLight";
-  src: url("/assets/fonts/outfit/static/Outfit-Light.ttf");
-}
-@font-face {
-  font-family: "OutfitMedium";
-  src: url("/assets/fonts/outfit/static/Outfit-Medium.ttf");
-}
-@font-face {
-  font-family: "OutfitRegular";
-  src: url("/assets/fonts/outfit/static/Outfit-Regular.ttf");
-}
-@font-face {
-  font-family: "OutfitSemiBold";
-  src: url("/assets/fonts/outfit/static/Outfit-SemiBold.ttf");
-}
-@font-face {
-  font-family: "OutfitThin";
-  src: url("/assets/fonts/outfit/static/Outfit-Thin.ttf");
-}
-@font-face {
-  font-family: "YoungSerif";
-  src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf") ;
-}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

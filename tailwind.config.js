@@ -22,15 +22,15 @@ export const theme = {
       }
     },
     fontFamily: {
-      outfitblack: ["OutfitBlack", "sans-serif"],
-      outfitbold: ["OutfitBold", "sans-serif"],
-      outfitextrabold: ["OutfitExtraBold", "sans-serif"],
-      outfitlight: ["OutfitLight", "sans-serif"],
-      outfitmedium: ["OutfitMedium", "sans-serif"],
-      outfitregular: ["OutfitRegular", "sans-serif"],
-      outfitsemibold: ["OutfitSemiBold", "sans-serif"],
-      outfitthin: ["OutfitThin", "sans-serif"],
-      youngserif: ["YoungSerif", "cursive"],
+      outfitblack: ["Outfit", "sans-serif"],
+      outfitbold: ["Outfit", "sans-serif"],
+      outfitextrabold: ["Outfit", "sans-serif"],
+      outfitlight: ["Outfit", "sans-serif"],
+      outfitmedium: ["Outfit", "sans-serif"],
+      outfitregular: ["Outfit", "sans-serif"],
+      outfitsemibold: ["Outfit", "sans-serif"],
+      outfitthin: ["Outfit", "sans-serif"],
+      youngserif: ["Young Serif", "cursive"],
     },
     screens:{
       'sm':'375px', // => @media (min-width: 640px) {....}
