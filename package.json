@@ -1,0 +1,27 @@
+{
+  "name": "clitailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run copyassets && npm run minifyhtml && npm run minifypages &&  npm run uglifyjs && npm run minifycss ",
+    "dev": "tailwindcss -i global.css -o assets/css/style.css --minify --watch",
+    "copyassets": "copyfiles ./assets/**/* ./dist/",
+    "minifyhtml": "html-minifier --collapse-whitespace --remove-comments ./index.html -o ./dist/index.html",
+    "minifypages": "html-minifier --collapse-whitespace --remove-comments --input-dir ./assets/pages --output-dir ./dist/assets/pages",
+    "minifycss": "tailwindcss -i global.css -o ./dist/assets/css/style.css --minify",
+    "uglifyjs": "uglifyjs --compress --mangle --verbose ./assets/js/main.js -o ./dist/assets/js/main.js",
+    "serve": "serve -d ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "copyfiles": "^2.4.1",
+    "html-minifier": "^4.0.0",
+    "serve": "^14.2.3",
+    "tailwindcss": "^3.4.3",
+    "uglifyjs": "^2.4.11"
+  }
+}
